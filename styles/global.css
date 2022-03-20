@@ -1,0 +1,140 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Rubik, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  color: rgb(0,0,0,0.8);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover:not(footer a) {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  background-image: linear-gradient(-100deg,
+  rgb(133,225,173,0.15),
+  rgb(133,225,173,0.5) 100%,
+  rgb(133,225,173,0.25));
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2 {
+  text-transform: lowercase;
+}
+
+svg {
+  fill: rgb(0,0,0,0.8);
+}
+
+svg:hover {
+  fill: rgb(0,0,0);
+}
+
+nav a {
+  padding: 0 2rem;
+  background: inherit;
+  text-transform: lowercase;
+}
+
+
+/* Contact Me */
+input[type=text], input[type=email], textarea {
+  padding: 10px;
+  margin: 0 0 10px;
+  border-radius: 5px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  margin-bottom: 1.45rem;
+}
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font: inherit;
+  margin: 0;
+}
+
+optgroup {
+  font-weight: 700;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  -webkit-appearance: button;
+}
+
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+textarea {
+  overflow: auto;
+}
