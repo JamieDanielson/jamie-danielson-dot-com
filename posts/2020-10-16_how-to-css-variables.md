@@ -37,7 +37,7 @@ h1 {
 
 Using an editor like VSCode you also get auto-suggestions even when just typing `--` so you don't have to memorize all of your variables. For example, when I typed `color: --head`, the auto-suggestion included different header variables that I could choose from.
 
-![VSCode Auto Suggest for Header variables](public/images/vscode-autosuggest-var.JPG)
+![VSCode Auto Suggest for Header variables](/images/vscode-autosuggest-var.JPG)
 
 This only scratches the surface. You can also have fallbacks in case a variable is used but not actually defined, and you can use these variables with JavaScript as well for getting and setting properties. But this is a good start to making CSS easier and cleaner - without needing a preprocessor.
 
