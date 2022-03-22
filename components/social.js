@@ -17,7 +17,7 @@ export default function Social() {
           </svg>
         </a>
       </Link>
-      <Link href="https://twitter.com/ijamiedee">
+      <Link href="https://twitter.com/jamieedanielson">
         <a>
           <svg
             title="Twitter"
